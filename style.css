@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+  margin: 40px;
+  background: #f8f8f8;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.produs {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #ccc;
+  text-align: center;
+}
+
+.produs button {
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#cos {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+
